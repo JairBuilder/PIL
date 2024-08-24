@@ -1,0 +1,98 @@
+[
+{
+  "directory": "/cloudide/workspace/PIL/build",
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/ast/node.cpp.o -c /cloudide/workspace/PIL/src/ast/node.cpp",
+  "file": "/cloudide/workspace/PIL/src/ast/node.cpp",
+  "output": "CMakeFiles/main.dir/src/ast/node.cpp.o"
+},
+{
+  "directory": "/cloudide/workspace/PIL/build",
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/evaluator/evaluator.cpp.o -c /cloudide/workspace/PIL/src/evaluator/evaluator.cpp",
+  "file": "/cloudide/workspace/PIL/src/evaluator/evaluator.cpp",
+  "output": "CMakeFiles/main.dir/src/evaluator/evaluator.cpp.o"
+},
+{
+  "directory": "/cloudide/workspace/PIL/build",
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/evaluator/infix.cpp.o -c /cloudide/workspace/PIL/src/evaluator/infix.cpp",
+  "file": "/cloudide/workspace/PIL/src/evaluator/infix.cpp",
+  "output": "CMakeFiles/main.dir/src/evaluator/infix.cpp.o"
+},
+{
+  "directory": "/cloudide/workspace/PIL/build",
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/evaluator/integer.cpp.o -c /cloudide/workspace/PIL/src/evaluator/integer.cpp",
+  "file": "/cloudide/workspace/PIL/src/evaluator/integer.cpp",
+  "output": "CMakeFiles/main.dir/src/evaluator/integer.cpp.o"
+},
+{
+  "directory": "/cloudide/workspace/PIL/build",
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/evaluator/program.cpp.o -c /cloudide/workspace/PIL/src/evaluator/program.cpp",
+  "file": "/cloudide/workspace/PIL/src/evaluator/program.cpp",
+  "output": "CMakeFiles/main.dir/src/evaluator/program.cpp.o"
+},
+{
+  "directory": "/cloudide/workspace/PIL/build",
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/lexer/lexer.cpp.o -c /cloudide/workspace/PIL/src/lexer/lexer.cpp",
+  "file": "/cloudide/workspace/PIL/src/lexer/lexer.cpp",
+  "output": "CMakeFiles/main.dir/src/lexer/lexer.cpp.o"
+},
+{
+  "directory": "/cloudide/workspace/PIL/build",
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/object/object.cpp.o -c /cloudide/workspace/PIL/src/object/object.cpp",
+  "file": "/cloudide/workspace/PIL/src/object/object.cpp",
+  "output": "CMakeFiles/main.dir/src/object/object.cpp.o"
+},
+{
+  "directory": "/cloudide/workspace/PIL/build",
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/parser/expression.cpp.o -c /cloudide/workspace/PIL/src/parser/expression.cpp",
+  "file": "/cloudide/workspace/PIL/src/parser/expression.cpp",
+  "output": "CMakeFiles/main.dir/src/parser/expression.cpp.o"
+},
+{
+  "directory": "/cloudide/workspace/PIL/build",
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/parser/group.cpp.o -c /cloudide/workspace/PIL/src/parser/group.cpp",
+  "file": "/cloudide/workspace/PIL/src/parser/group.cpp",
+  "output": "CMakeFiles/main.dir/src/parser/group.cpp.o"
+},
+{
+  "directory": "/cloudide/workspace/PIL/build",
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/parser/infix.cpp.o -c /cloudide/workspace/PIL/src/parser/infix.cpp",
+  "file": "/cloudide/workspace/PIL/src/parser/infix.cpp",
+  "output": "CMakeFiles/main.dir/src/parser/infix.cpp.o"
+},
+{
+  "directory": "/cloudide/workspace/PIL/build",
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/parser/integer.cpp.o -c /cloudide/workspace/PIL/src/parser/integer.cpp",
+  "file": "/cloudide/workspace/PIL/src/parser/integer.cpp",
+  "output": "CMakeFiles/main.dir/src/parser/integer.cpp.o"
+},
+{
+  "directory": "/cloudide/workspace/PIL/build",
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/parser/parser.cpp.o -c /cloudide/workspace/PIL/src/parser/parser.cpp",
+  "file": "/cloudide/workspace/PIL/src/parser/parser.cpp",
+  "output": "CMakeFiles/main.dir/src/parser/parser.cpp.o"
+},
+{
+  "directory": "/cloudide/workspace/PIL/build",
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/parser/program.cpp.o -c /cloudide/workspace/PIL/src/parser/program.cpp",
+  "file": "/cloudide/workspace/PIL/src/parser/program.cpp",
+  "output": "CMakeFiles/main.dir/src/parser/program.cpp.o"
+},
+{
+  "directory": "/cloudide/workspace/PIL/build",
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/parser/statement.cpp.o -c /cloudide/workspace/PIL/src/parser/statement.cpp",
+  "file": "/cloudide/workspace/PIL/src/parser/statement.cpp",
+  "output": "CMakeFiles/main.dir/src/parser/statement.cpp.o"
+},
+{
+  "directory": "/cloudide/workspace/PIL/build",
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/token/token.cpp.o -c /cloudide/workspace/PIL/src/token/token.cpp",
+  "file": "/cloudide/workspace/PIL/src/token/token.cpp",
+  "output": "CMakeFiles/main.dir/src/token/token.cpp.o"
+},
+{
+  "directory": "/cloudide/workspace/PIL/build",
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/test/test_evaluator.cpp.o -c /cloudide/workspace/PIL/test/test_evaluator.cpp",
+  "file": "/cloudide/workspace/PIL/test/test_evaluator.cpp",
+  "output": "CMakeFiles/main.dir/test/test_evaluator.cpp.o"
+}
+]
