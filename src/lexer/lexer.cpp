@@ -18,6 +18,13 @@ Lexer::Lexer(const std::string& inputFile)
     m_input = oss.str();
 }
 
+Lexer::Lexer(const char * buf, size_t len) {
+    m_input.assign(buf, len);
+    m_pos = 0;
+    m_next_pos = 0;
+    m_ch = 0;
+}
+
 Lexer::Lexer() : m_pos(0), m_next_pos(0), m_ch(0) {}
 
 void Lexer::skip_white_space()

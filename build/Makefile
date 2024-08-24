@@ -129,6 +129,30 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+eval_repl.o: eval_repl.cpp.o
+.PHONY : eval_repl.o
+
+# target to build an object file
+eval_repl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/eval_repl.cpp.o
+.PHONY : eval_repl.cpp.o
+
+eval_repl.i: eval_repl.cpp.i
+.PHONY : eval_repl.i
+
+# target to preprocess a source file
+eval_repl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/eval_repl.cpp.i
+.PHONY : eval_repl.cpp.i
+
+eval_repl.s: eval_repl.cpp.s
+.PHONY : eval_repl.s
+
+# target to generate assembly for a file
+eval_repl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/eval_repl.cpp.s
+.PHONY : eval_repl.cpp.s
+
 src/ast/node.o: src/ast/node.cpp.o
 .PHONY : src/ast/node.o
 
@@ -489,30 +513,6 @@ src/token/token.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/token/token.cpp.s
 .PHONY : src/token/token.cpp.s
 
-test/test_evaluator.o: test/test_evaluator.cpp.o
-.PHONY : test/test_evaluator.o
-
-# target to build an object file
-test/test_evaluator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test/test_evaluator.cpp.o
-.PHONY : test/test_evaluator.cpp.o
-
-test/test_evaluator.i: test/test_evaluator.cpp.i
-.PHONY : test/test_evaluator.i
-
-# target to preprocess a source file
-test/test_evaluator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test/test_evaluator.cpp.i
-.PHONY : test/test_evaluator.cpp.i
-
-test/test_evaluator.s: test/test_evaluator.cpp.s
-.PHONY : test/test_evaluator.s
-
-# target to generate assembly for a file
-test/test_evaluator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test/test_evaluator.cpp.s
-.PHONY : test/test_evaluator.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -522,6 +522,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... eval_repl.o"
+	@echo "... eval_repl.i"
+	@echo "... eval_repl.s"
 	@echo "... src/ast/node.o"
 	@echo "... src/ast/node.i"
 	@echo "... src/ast/node.s"
@@ -567,9 +570,6 @@ help:
 	@echo "... src/token/token.o"
 	@echo "... src/token/token.i"
 	@echo "... src/token/token.s"
-	@echo "... test/test_evaluator.o"
-	@echo "... test/test_evaluator.i"
-	@echo "... test/test_evaluator.s"
 .PHONY : help
 
 

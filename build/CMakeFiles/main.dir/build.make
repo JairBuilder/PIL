@@ -279,19 +279,19 @@ CMakeFiles/main.dir/src/token/token.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/token/token.cpp.s"
 	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cloudide/workspace/PIL/src/token/token.cpp -o CMakeFiles/main.dir/src/token/token.cpp.s
 
-CMakeFiles/main.dir/test/test_evaluator.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/test/test_evaluator.cpp.o: /cloudide/workspace/PIL/test/test_evaluator.cpp
-CMakeFiles/main.dir/test/test_evaluator.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main.dir/test/test_evaluator.cpp.o"
-	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/test/test_evaluator.cpp.o -MF CMakeFiles/main.dir/test/test_evaluator.cpp.o.d -o CMakeFiles/main.dir/test/test_evaluator.cpp.o -c /cloudide/workspace/PIL/test/test_evaluator.cpp
+CMakeFiles/main.dir/eval_repl.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/eval_repl.cpp.o: /cloudide/workspace/PIL/eval_repl.cpp
+CMakeFiles/main.dir/eval_repl.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main.dir/eval_repl.cpp.o"
+	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/eval_repl.cpp.o -MF CMakeFiles/main.dir/eval_repl.cpp.o.d -o CMakeFiles/main.dir/eval_repl.cpp.o -c /cloudide/workspace/PIL/eval_repl.cpp
 
-CMakeFiles/main.dir/test/test_evaluator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/test/test_evaluator.cpp.i"
-	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cloudide/workspace/PIL/test/test_evaluator.cpp > CMakeFiles/main.dir/test/test_evaluator.cpp.i
+CMakeFiles/main.dir/eval_repl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/eval_repl.cpp.i"
+	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cloudide/workspace/PIL/eval_repl.cpp > CMakeFiles/main.dir/eval_repl.cpp.i
 
-CMakeFiles/main.dir/test/test_evaluator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/test/test_evaluator.cpp.s"
-	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cloudide/workspace/PIL/test/test_evaluator.cpp -o CMakeFiles/main.dir/test/test_evaluator.cpp.s
+CMakeFiles/main.dir/eval_repl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/eval_repl.cpp.s"
+	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cloudide/workspace/PIL/eval_repl.cpp -o CMakeFiles/main.dir/eval_repl.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -310,7 +310,7 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/src/parser/program.cpp.o" \
 "CMakeFiles/main.dir/src/parser/statement.cpp.o" \
 "CMakeFiles/main.dir/src/token/token.cpp.o" \
-"CMakeFiles/main.dir/test/test_evaluator.cpp.o"
+"CMakeFiles/main.dir/eval_repl.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
@@ -330,7 +330,7 @@ main: CMakeFiles/main.dir/src/parser/parser.cpp.o
 main: CMakeFiles/main.dir/src/parser/program.cpp.o
 main: CMakeFiles/main.dir/src/parser/statement.cpp.o
 main: CMakeFiles/main.dir/src/token/token.cpp.o
-main: CMakeFiles/main.dir/test/test_evaluator.cpp.o
+main: CMakeFiles/main.dir/eval_repl.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable main"

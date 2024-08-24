@@ -11,6 +11,7 @@ namespace pi {
         class Lexer {
         public:
             Lexer(const std::string& inputFile);
+            Lexer(const char * buf, size_t len);
             Lexer();
             ~Lexer() = default;
             Token next_token();

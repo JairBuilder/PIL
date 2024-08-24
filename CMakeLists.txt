@@ -10,6 +10,7 @@ include_directories(./)
 
 file(GLOB_RECURSE SOURCES "src/*.cpp")
 
-#add_executable(lexer ${SOURCES} ./test/test_lexer.cpp)
-#add_executable(test_parser ${SOURCES} ./test/test_parser.cpp)
-add_executable(main ${SOURCES} ./test/test_evaluator.cpp)
+#add_executable(main ${SOURCES} ./test/test_lexer.cpp)
+#add_executable(main ${SOURCES} ./test/test_parser.cpp)
+#add_executable(main ${SOURCES} ./test/test_evaluator.cpp)
+add_executable(main ${SOURCES} ./eval_repl.cpp)
