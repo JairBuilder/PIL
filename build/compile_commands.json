@@ -7,6 +7,18 @@
 },
 {
   "directory": "/cloudide/workspace/PIL/build",
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/code/code.cpp.o -c /cloudide/workspace/PIL/src/code/code.cpp",
+  "file": "/cloudide/workspace/PIL/src/code/code.cpp",
+  "output": "CMakeFiles/main.dir/src/code/code.cpp.o"
+},
+{
+  "directory": "/cloudide/workspace/PIL/build",
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/code/instruction.cpp.o -c /cloudide/workspace/PIL/src/code/instruction.cpp",
+  "file": "/cloudide/workspace/PIL/src/code/instruction.cpp",
+  "output": "CMakeFiles/main.dir/src/code/instruction.cpp.o"
+},
+{
+  "directory": "/cloudide/workspace/PIL/build",
   "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/evaluator/evaluator.cpp.o -c /cloudide/workspace/PIL/src/evaluator/evaluator.cpp",
   "file": "/cloudide/workspace/PIL/src/evaluator/evaluator.cpp",
   "output": "CMakeFiles/main.dir/src/evaluator/evaluator.cpp.o"
@@ -91,8 +103,8 @@
 },
 {
   "directory": "/cloudide/workspace/PIL/build",
-  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/eval_repl.cpp.o -c /cloudide/workspace/PIL/eval_repl.cpp",
-  "file": "/cloudide/workspace/PIL/eval_repl.cpp",
-  "output": "CMakeFiles/main.dir/eval_repl.cpp.o"
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/test/test_vm.cpp.o -c /cloudide/workspace/PIL/test/test_vm.cpp",
+  "file": "/cloudide/workspace/PIL/test/test_vm.cpp",
+  "output": "CMakeFiles/main.dir/test/test_vm.cpp.o"
 }
 ]

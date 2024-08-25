@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/eval_repl.cpp.o"
-  "CMakeFiles/main.dir/eval_repl.cpp.o.d"
   "CMakeFiles/main.dir/src/ast/node.cpp.o"
   "CMakeFiles/main.dir/src/ast/node.cpp.o.d"
+  "CMakeFiles/main.dir/src/code/code.cpp.o"
+  "CMakeFiles/main.dir/src/code/code.cpp.o.d"
+  "CMakeFiles/main.dir/src/code/instruction.cpp.o"
+  "CMakeFiles/main.dir/src/code/instruction.cpp.o.d"
   "CMakeFiles/main.dir/src/evaluator/evaluator.cpp.o"
   "CMakeFiles/main.dir/src/evaluator/evaluator.cpp.o.d"
   "CMakeFiles/main.dir/src/evaluator/infix.cpp.o"
@@ -31,6 +33,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/parser/statement.cpp.o.d"
   "CMakeFiles/main.dir/src/token/token.cpp.o"
   "CMakeFiles/main.dir/src/token/token.cpp.o.d"
+  "CMakeFiles/main.dir/test/test_vm.cpp.o"
+  "CMakeFiles/main.dir/test/test_vm.cpp.o.d"
   "main"
   "main.pdb"
 )

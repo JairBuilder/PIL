@@ -129,30 +129,6 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-eval_repl.o: eval_repl.cpp.o
-.PHONY : eval_repl.o
-
-# target to build an object file
-eval_repl.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/eval_repl.cpp.o
-.PHONY : eval_repl.cpp.o
-
-eval_repl.i: eval_repl.cpp.i
-.PHONY : eval_repl.i
-
-# target to preprocess a source file
-eval_repl.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/eval_repl.cpp.i
-.PHONY : eval_repl.cpp.i
-
-eval_repl.s: eval_repl.cpp.s
-.PHONY : eval_repl.s
-
-# target to generate assembly for a file
-eval_repl.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/eval_repl.cpp.s
-.PHONY : eval_repl.cpp.s
-
 src/ast/node.o: src/ast/node.cpp.o
 .PHONY : src/ast/node.o
 
@@ -176,6 +152,54 @@ src/ast/node.s: src/ast/node.cpp.s
 src/ast/node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/ast/node.cpp.s
 .PHONY : src/ast/node.cpp.s
+
+src/code/code.o: src/code/code.cpp.o
+.PHONY : src/code/code.o
+
+# target to build an object file
+src/code/code.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/code/code.cpp.o
+.PHONY : src/code/code.cpp.o
+
+src/code/code.i: src/code/code.cpp.i
+.PHONY : src/code/code.i
+
+# target to preprocess a source file
+src/code/code.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/code/code.cpp.i
+.PHONY : src/code/code.cpp.i
+
+src/code/code.s: src/code/code.cpp.s
+.PHONY : src/code/code.s
+
+# target to generate assembly for a file
+src/code/code.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/code/code.cpp.s
+.PHONY : src/code/code.cpp.s
+
+src/code/instruction.o: src/code/instruction.cpp.o
+.PHONY : src/code/instruction.o
+
+# target to build an object file
+src/code/instruction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/code/instruction.cpp.o
+.PHONY : src/code/instruction.cpp.o
+
+src/code/instruction.i: src/code/instruction.cpp.i
+.PHONY : src/code/instruction.i
+
+# target to preprocess a source file
+src/code/instruction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/code/instruction.cpp.i
+.PHONY : src/code/instruction.cpp.i
+
+src/code/instruction.s: src/code/instruction.cpp.s
+.PHONY : src/code/instruction.s
+
+# target to generate assembly for a file
+src/code/instruction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/code/instruction.cpp.s
+.PHONY : src/code/instruction.cpp.s
 
 src/evaluator/evaluator.o: src/evaluator/evaluator.cpp.o
 .PHONY : src/evaluator/evaluator.o
@@ -513,6 +537,30 @@ src/token/token.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/token/token.cpp.s
 .PHONY : src/token/token.cpp.s
 
+test/test_vm.o: test/test_vm.cpp.o
+.PHONY : test/test_vm.o
+
+# target to build an object file
+test/test_vm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test/test_vm.cpp.o
+.PHONY : test/test_vm.cpp.o
+
+test/test_vm.i: test/test_vm.cpp.i
+.PHONY : test/test_vm.i
+
+# target to preprocess a source file
+test/test_vm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test/test_vm.cpp.i
+.PHONY : test/test_vm.cpp.i
+
+test/test_vm.s: test/test_vm.cpp.s
+.PHONY : test/test_vm.s
+
+# target to generate assembly for a file
+test/test_vm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test/test_vm.cpp.s
+.PHONY : test/test_vm.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -522,12 +570,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... eval_repl.o"
-	@echo "... eval_repl.i"
-	@echo "... eval_repl.s"
 	@echo "... src/ast/node.o"
 	@echo "... src/ast/node.i"
 	@echo "... src/ast/node.s"
+	@echo "... src/code/code.o"
+	@echo "... src/code/code.i"
+	@echo "... src/code/code.s"
+	@echo "... src/code/instruction.o"
+	@echo "... src/code/instruction.i"
+	@echo "... src/code/instruction.s"
 	@echo "... src/evaluator/evaluator.o"
 	@echo "... src/evaluator/evaluator.i"
 	@echo "... src/evaluator/evaluator.s"
@@ -570,6 +621,9 @@ help:
 	@echo "... src/token/token.o"
 	@echo "... src/token/token.i"
 	@echo "... src/token/token.s"
+	@echo "... test/test_vm.o"
+	@echo "... test/test_vm.i"
+	@echo "... test/test_vm.s"
 .PHONY : help
 
 

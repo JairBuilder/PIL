@@ -83,10 +83,38 @@ CMakeFiles/main.dir/src/ast/node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/ast/node.cpp.s"
 	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cloudide/workspace/PIL/src/ast/node.cpp -o CMakeFiles/main.dir/src/ast/node.cpp.s
 
+CMakeFiles/main.dir/src/code/code.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/code/code.cpp.o: /cloudide/workspace/PIL/src/code/code.cpp
+CMakeFiles/main.dir/src/code/code.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/code/code.cpp.o"
+	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/code/code.cpp.o -MF CMakeFiles/main.dir/src/code/code.cpp.o.d -o CMakeFiles/main.dir/src/code/code.cpp.o -c /cloudide/workspace/PIL/src/code/code.cpp
+
+CMakeFiles/main.dir/src/code/code.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/code/code.cpp.i"
+	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cloudide/workspace/PIL/src/code/code.cpp > CMakeFiles/main.dir/src/code/code.cpp.i
+
+CMakeFiles/main.dir/src/code/code.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/code/code.cpp.s"
+	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cloudide/workspace/PIL/src/code/code.cpp -o CMakeFiles/main.dir/src/code/code.cpp.s
+
+CMakeFiles/main.dir/src/code/instruction.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/code/instruction.cpp.o: /cloudide/workspace/PIL/src/code/instruction.cpp
+CMakeFiles/main.dir/src/code/instruction.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/code/instruction.cpp.o"
+	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/code/instruction.cpp.o -MF CMakeFiles/main.dir/src/code/instruction.cpp.o.d -o CMakeFiles/main.dir/src/code/instruction.cpp.o -c /cloudide/workspace/PIL/src/code/instruction.cpp
+
+CMakeFiles/main.dir/src/code/instruction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/code/instruction.cpp.i"
+	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cloudide/workspace/PIL/src/code/instruction.cpp > CMakeFiles/main.dir/src/code/instruction.cpp.i
+
+CMakeFiles/main.dir/src/code/instruction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/code/instruction.cpp.s"
+	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cloudide/workspace/PIL/src/code/instruction.cpp -o CMakeFiles/main.dir/src/code/instruction.cpp.s
+
 CMakeFiles/main.dir/src/evaluator/evaluator.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/evaluator/evaluator.cpp.o: /cloudide/workspace/PIL/src/evaluator/evaluator.cpp
 CMakeFiles/main.dir/src/evaluator/evaluator.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/evaluator/evaluator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/evaluator/evaluator.cpp.o"
 	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/evaluator/evaluator.cpp.o -MF CMakeFiles/main.dir/src/evaluator/evaluator.cpp.o.d -o CMakeFiles/main.dir/src/evaluator/evaluator.cpp.o -c /cloudide/workspace/PIL/src/evaluator/evaluator.cpp
 
 CMakeFiles/main.dir/src/evaluator/evaluator.cpp.i: cmake_force
@@ -100,7 +128,7 @@ CMakeFiles/main.dir/src/evaluator/evaluator.cpp.s: cmake_force
 CMakeFiles/main.dir/src/evaluator/infix.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/evaluator/infix.cpp.o: /cloudide/workspace/PIL/src/evaluator/infix.cpp
 CMakeFiles/main.dir/src/evaluator/infix.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/evaluator/infix.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/evaluator/infix.cpp.o"
 	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/evaluator/infix.cpp.o -MF CMakeFiles/main.dir/src/evaluator/infix.cpp.o.d -o CMakeFiles/main.dir/src/evaluator/infix.cpp.o -c /cloudide/workspace/PIL/src/evaluator/infix.cpp
 
 CMakeFiles/main.dir/src/evaluator/infix.cpp.i: cmake_force
@@ -114,7 +142,7 @@ CMakeFiles/main.dir/src/evaluator/infix.cpp.s: cmake_force
 CMakeFiles/main.dir/src/evaluator/integer.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/evaluator/integer.cpp.o: /cloudide/workspace/PIL/src/evaluator/integer.cpp
 CMakeFiles/main.dir/src/evaluator/integer.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/evaluator/integer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/evaluator/integer.cpp.o"
 	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/evaluator/integer.cpp.o -MF CMakeFiles/main.dir/src/evaluator/integer.cpp.o.d -o CMakeFiles/main.dir/src/evaluator/integer.cpp.o -c /cloudide/workspace/PIL/src/evaluator/integer.cpp
 
 CMakeFiles/main.dir/src/evaluator/integer.cpp.i: cmake_force
@@ -128,7 +156,7 @@ CMakeFiles/main.dir/src/evaluator/integer.cpp.s: cmake_force
 CMakeFiles/main.dir/src/evaluator/program.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/evaluator/program.cpp.o: /cloudide/workspace/PIL/src/evaluator/program.cpp
 CMakeFiles/main.dir/src/evaluator/program.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/evaluator/program.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/evaluator/program.cpp.o"
 	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/evaluator/program.cpp.o -MF CMakeFiles/main.dir/src/evaluator/program.cpp.o.d -o CMakeFiles/main.dir/src/evaluator/program.cpp.o -c /cloudide/workspace/PIL/src/evaluator/program.cpp
 
 CMakeFiles/main.dir/src/evaluator/program.cpp.i: cmake_force
@@ -142,7 +170,7 @@ CMakeFiles/main.dir/src/evaluator/program.cpp.s: cmake_force
 CMakeFiles/main.dir/src/lexer/lexer.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/lexer/lexer.cpp.o: /cloudide/workspace/PIL/src/lexer/lexer.cpp
 CMakeFiles/main.dir/src/lexer/lexer.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/lexer/lexer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/lexer/lexer.cpp.o"
 	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/lexer/lexer.cpp.o -MF CMakeFiles/main.dir/src/lexer/lexer.cpp.o.d -o CMakeFiles/main.dir/src/lexer/lexer.cpp.o -c /cloudide/workspace/PIL/src/lexer/lexer.cpp
 
 CMakeFiles/main.dir/src/lexer/lexer.cpp.i: cmake_force
@@ -156,7 +184,7 @@ CMakeFiles/main.dir/src/lexer/lexer.cpp.s: cmake_force
 CMakeFiles/main.dir/src/object/object.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/object/object.cpp.o: /cloudide/workspace/PIL/src/object/object.cpp
 CMakeFiles/main.dir/src/object/object.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/object/object.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/object/object.cpp.o"
 	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/object/object.cpp.o -MF CMakeFiles/main.dir/src/object/object.cpp.o.d -o CMakeFiles/main.dir/src/object/object.cpp.o -c /cloudide/workspace/PIL/src/object/object.cpp
 
 CMakeFiles/main.dir/src/object/object.cpp.i: cmake_force
@@ -170,7 +198,7 @@ CMakeFiles/main.dir/src/object/object.cpp.s: cmake_force
 CMakeFiles/main.dir/src/parser/expression.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/parser/expression.cpp.o: /cloudide/workspace/PIL/src/parser/expression.cpp
 CMakeFiles/main.dir/src/parser/expression.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/parser/expression.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/src/parser/expression.cpp.o"
 	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/parser/expression.cpp.o -MF CMakeFiles/main.dir/src/parser/expression.cpp.o.d -o CMakeFiles/main.dir/src/parser/expression.cpp.o -c /cloudide/workspace/PIL/src/parser/expression.cpp
 
 CMakeFiles/main.dir/src/parser/expression.cpp.i: cmake_force
@@ -184,7 +212,7 @@ CMakeFiles/main.dir/src/parser/expression.cpp.s: cmake_force
 CMakeFiles/main.dir/src/parser/group.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/parser/group.cpp.o: /cloudide/workspace/PIL/src/parser/group.cpp
 CMakeFiles/main.dir/src/parser/group.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/parser/group.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/src/parser/group.cpp.o"
 	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/parser/group.cpp.o -MF CMakeFiles/main.dir/src/parser/group.cpp.o.d -o CMakeFiles/main.dir/src/parser/group.cpp.o -c /cloudide/workspace/PIL/src/parser/group.cpp
 
 CMakeFiles/main.dir/src/parser/group.cpp.i: cmake_force
@@ -198,7 +226,7 @@ CMakeFiles/main.dir/src/parser/group.cpp.s: cmake_force
 CMakeFiles/main.dir/src/parser/infix.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/parser/infix.cpp.o: /cloudide/workspace/PIL/src/parser/infix.cpp
 CMakeFiles/main.dir/src/parser/infix.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/src/parser/infix.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/src/parser/infix.cpp.o"
 	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/parser/infix.cpp.o -MF CMakeFiles/main.dir/src/parser/infix.cpp.o.d -o CMakeFiles/main.dir/src/parser/infix.cpp.o -c /cloudide/workspace/PIL/src/parser/infix.cpp
 
 CMakeFiles/main.dir/src/parser/infix.cpp.i: cmake_force
@@ -212,7 +240,7 @@ CMakeFiles/main.dir/src/parser/infix.cpp.s: cmake_force
 CMakeFiles/main.dir/src/parser/integer.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/parser/integer.cpp.o: /cloudide/workspace/PIL/src/parser/integer.cpp
 CMakeFiles/main.dir/src/parser/integer.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/src/parser/integer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/src/parser/integer.cpp.o"
 	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/parser/integer.cpp.o -MF CMakeFiles/main.dir/src/parser/integer.cpp.o.d -o CMakeFiles/main.dir/src/parser/integer.cpp.o -c /cloudide/workspace/PIL/src/parser/integer.cpp
 
 CMakeFiles/main.dir/src/parser/integer.cpp.i: cmake_force
@@ -226,7 +254,7 @@ CMakeFiles/main.dir/src/parser/integer.cpp.s: cmake_force
 CMakeFiles/main.dir/src/parser/parser.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/parser/parser.cpp.o: /cloudide/workspace/PIL/src/parser/parser.cpp
 CMakeFiles/main.dir/src/parser/parser.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/src/parser/parser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.dir/src/parser/parser.cpp.o"
 	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/parser/parser.cpp.o -MF CMakeFiles/main.dir/src/parser/parser.cpp.o.d -o CMakeFiles/main.dir/src/parser/parser.cpp.o -c /cloudide/workspace/PIL/src/parser/parser.cpp
 
 CMakeFiles/main.dir/src/parser/parser.cpp.i: cmake_force
@@ -240,7 +268,7 @@ CMakeFiles/main.dir/src/parser/parser.cpp.s: cmake_force
 CMakeFiles/main.dir/src/parser/program.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/parser/program.cpp.o: /cloudide/workspace/PIL/src/parser/program.cpp
 CMakeFiles/main.dir/src/parser/program.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/src/parser/program.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main.dir/src/parser/program.cpp.o"
 	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/parser/program.cpp.o -MF CMakeFiles/main.dir/src/parser/program.cpp.o.d -o CMakeFiles/main.dir/src/parser/program.cpp.o -c /cloudide/workspace/PIL/src/parser/program.cpp
 
 CMakeFiles/main.dir/src/parser/program.cpp.i: cmake_force
@@ -254,7 +282,7 @@ CMakeFiles/main.dir/src/parser/program.cpp.s: cmake_force
 CMakeFiles/main.dir/src/parser/statement.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/parser/statement.cpp.o: /cloudide/workspace/PIL/src/parser/statement.cpp
 CMakeFiles/main.dir/src/parser/statement.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.dir/src/parser/statement.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main.dir/src/parser/statement.cpp.o"
 	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/parser/statement.cpp.o -MF CMakeFiles/main.dir/src/parser/statement.cpp.o.d -o CMakeFiles/main.dir/src/parser/statement.cpp.o -c /cloudide/workspace/PIL/src/parser/statement.cpp
 
 CMakeFiles/main.dir/src/parser/statement.cpp.i: cmake_force
@@ -268,7 +296,7 @@ CMakeFiles/main.dir/src/parser/statement.cpp.s: cmake_force
 CMakeFiles/main.dir/src/token/token.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/token/token.cpp.o: /cloudide/workspace/PIL/src/token/token.cpp
 CMakeFiles/main.dir/src/token/token.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main.dir/src/token/token.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/main.dir/src/token/token.cpp.o"
 	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/token/token.cpp.o -MF CMakeFiles/main.dir/src/token/token.cpp.o.d -o CMakeFiles/main.dir/src/token/token.cpp.o -c /cloudide/workspace/PIL/src/token/token.cpp
 
 CMakeFiles/main.dir/src/token/token.cpp.i: cmake_force
@@ -279,23 +307,25 @@ CMakeFiles/main.dir/src/token/token.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/token/token.cpp.s"
 	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cloudide/workspace/PIL/src/token/token.cpp -o CMakeFiles/main.dir/src/token/token.cpp.s
 
-CMakeFiles/main.dir/eval_repl.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/eval_repl.cpp.o: /cloudide/workspace/PIL/eval_repl.cpp
-CMakeFiles/main.dir/eval_repl.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main.dir/eval_repl.cpp.o"
-	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/eval_repl.cpp.o -MF CMakeFiles/main.dir/eval_repl.cpp.o.d -o CMakeFiles/main.dir/eval_repl.cpp.o -c /cloudide/workspace/PIL/eval_repl.cpp
+CMakeFiles/main.dir/test/test_vm.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/test/test_vm.cpp.o: /cloudide/workspace/PIL/test/test_vm.cpp
+CMakeFiles/main.dir/test/test_vm.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/main.dir/test/test_vm.cpp.o"
+	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/test/test_vm.cpp.o -MF CMakeFiles/main.dir/test/test_vm.cpp.o.d -o CMakeFiles/main.dir/test/test_vm.cpp.o -c /cloudide/workspace/PIL/test/test_vm.cpp
 
-CMakeFiles/main.dir/eval_repl.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/eval_repl.cpp.i"
-	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cloudide/workspace/PIL/eval_repl.cpp > CMakeFiles/main.dir/eval_repl.cpp.i
+CMakeFiles/main.dir/test/test_vm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/test/test_vm.cpp.i"
+	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cloudide/workspace/PIL/test/test_vm.cpp > CMakeFiles/main.dir/test/test_vm.cpp.i
 
-CMakeFiles/main.dir/eval_repl.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/eval_repl.cpp.s"
-	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cloudide/workspace/PIL/eval_repl.cpp -o CMakeFiles/main.dir/eval_repl.cpp.s
+CMakeFiles/main.dir/test/test_vm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/test/test_vm.cpp.s"
+	/home/cloudide/.nix-profile/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cloudide/workspace/PIL/test/test_vm.cpp -o CMakeFiles/main.dir/test/test_vm.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/src/ast/node.cpp.o" \
+"CMakeFiles/main.dir/src/code/code.cpp.o" \
+"CMakeFiles/main.dir/src/code/instruction.cpp.o" \
 "CMakeFiles/main.dir/src/evaluator/evaluator.cpp.o" \
 "CMakeFiles/main.dir/src/evaluator/infix.cpp.o" \
 "CMakeFiles/main.dir/src/evaluator/integer.cpp.o" \
@@ -310,12 +340,14 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/src/parser/program.cpp.o" \
 "CMakeFiles/main.dir/src/parser/statement.cpp.o" \
 "CMakeFiles/main.dir/src/token/token.cpp.o" \
-"CMakeFiles/main.dir/eval_repl.cpp.o"
+"CMakeFiles/main.dir/test/test_vm.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/src/ast/node.cpp.o
+main: CMakeFiles/main.dir/src/code/code.cpp.o
+main: CMakeFiles/main.dir/src/code/instruction.cpp.o
 main: CMakeFiles/main.dir/src/evaluator/evaluator.cpp.o
 main: CMakeFiles/main.dir/src/evaluator/infix.cpp.o
 main: CMakeFiles/main.dir/src/evaluator/integer.cpp.o
@@ -330,10 +362,10 @@ main: CMakeFiles/main.dir/src/parser/parser.cpp.o
 main: CMakeFiles/main.dir/src/parser/program.cpp.o
 main: CMakeFiles/main.dir/src/parser/statement.cpp.o
 main: CMakeFiles/main.dir/src/token/token.cpp.o
-main: CMakeFiles/main.dir/eval_repl.cpp.o
+main: CMakeFiles/main.dir/test/test_vm.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/cloudide/workspace/PIL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
