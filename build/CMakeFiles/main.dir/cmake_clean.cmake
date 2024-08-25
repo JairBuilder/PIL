@@ -47,8 +47,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/vm/binary_operation.cpp.o.d"
   "CMakeFiles/main.dir/src/vm/vm.cpp.o"
   "CMakeFiles/main.dir/src/vm/vm.cpp.o.d"
-  "CMakeFiles/main.dir/test/test_vm.cpp.o"
-  "CMakeFiles/main.dir/test/test_vm.cpp.o.d"
+  "CMakeFiles/main.dir/vm_repl.cpp.o"
+  "CMakeFiles/main.dir/vm_repl.cpp.o.d"
   "main"
   "main.pdb"
 )

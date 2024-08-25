@@ -705,29 +705,29 @@ src/vm/vm.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/vm/vm.cpp.s
 .PHONY : src/vm/vm.cpp.s
 
-test/test_vm.o: test/test_vm.cpp.o
-.PHONY : test/test_vm.o
+vm_repl.o: vm_repl.cpp.o
+.PHONY : vm_repl.o
 
 # target to build an object file
-test/test_vm.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test/test_vm.cpp.o
-.PHONY : test/test_vm.cpp.o
+vm_repl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/vm_repl.cpp.o
+.PHONY : vm_repl.cpp.o
 
-test/test_vm.i: test/test_vm.cpp.i
-.PHONY : test/test_vm.i
+vm_repl.i: vm_repl.cpp.i
+.PHONY : vm_repl.i
 
 # target to preprocess a source file
-test/test_vm.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test/test_vm.cpp.i
-.PHONY : test/test_vm.cpp.i
+vm_repl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/vm_repl.cpp.i
+.PHONY : vm_repl.cpp.i
 
-test/test_vm.s: test/test_vm.cpp.s
-.PHONY : test/test_vm.s
+vm_repl.s: vm_repl.cpp.s
+.PHONY : vm_repl.s
 
 # target to generate assembly for a file
-test/test_vm.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test/test_vm.cpp.s
-.PHONY : test/test_vm.cpp.s
+vm_repl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/vm_repl.cpp.s
+.PHONY : vm_repl.cpp.s
 
 # Help Target
 help:
@@ -810,9 +810,9 @@ help:
 	@echo "... src/vm/vm.o"
 	@echo "... src/vm/vm.i"
 	@echo "... src/vm/vm.s"
-	@echo "... test/test_vm.o"
-	@echo "... test/test_vm.i"
-	@echo "... test/test_vm.s"
+	@echo "... vm_repl.o"
+	@echo "... vm_repl.i"
+	@echo "... vm_repl.s"
 .PHONY : help
 
 

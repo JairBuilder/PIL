@@ -145,8 +145,8 @@
 },
 {
   "directory": "/cloudide/workspace/PIL/build",
-  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/test/test_vm.cpp.o -c /cloudide/workspace/PIL/test/test_vm.cpp",
-  "file": "/cloudide/workspace/PIL/test/test_vm.cpp",
-  "output": "CMakeFiles/main.dir/test/test_vm.cpp.o"
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/vm_repl.cpp.o -c /cloudide/workspace/PIL/vm_repl.cpp",
+  "file": "/cloudide/workspace/PIL/vm_repl.cpp",
+  "output": "CMakeFiles/main.dir/vm_repl.cpp.o"
 }
 ]

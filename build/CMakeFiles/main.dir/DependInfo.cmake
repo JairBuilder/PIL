@@ -32,7 +32,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/cloudide/workspace/PIL/src/token/token.cpp" "CMakeFiles/main.dir/src/token/token.cpp.o" "gcc" "CMakeFiles/main.dir/src/token/token.cpp.o.d"
   "/cloudide/workspace/PIL/src/vm/binary_operation.cpp" "CMakeFiles/main.dir/src/vm/binary_operation.cpp.o" "gcc" "CMakeFiles/main.dir/src/vm/binary_operation.cpp.o.d"
   "/cloudide/workspace/PIL/src/vm/vm.cpp" "CMakeFiles/main.dir/src/vm/vm.cpp.o" "gcc" "CMakeFiles/main.dir/src/vm/vm.cpp.o.d"
-  "/cloudide/workspace/PIL/test/test_vm.cpp" "CMakeFiles/main.dir/test/test_vm.cpp.o" "gcc" "CMakeFiles/main.dir/test/test_vm.cpp.o.d"
+  "/cloudide/workspace/PIL/vm_repl.cpp" "CMakeFiles/main.dir/vm_repl.cpp.o" "gcc" "CMakeFiles/main.dir/vm_repl.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
