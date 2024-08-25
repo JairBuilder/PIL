@@ -201,6 +201,126 @@ src/code/instruction.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/code/instruction.cpp.s
 .PHONY : src/code/instruction.cpp.s
 
+src/compiler/compiler.o: src/compiler/compiler.cpp.o
+.PHONY : src/compiler/compiler.o
+
+# target to build an object file
+src/compiler/compiler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/compiler/compiler.cpp.o
+.PHONY : src/compiler/compiler.cpp.o
+
+src/compiler/compiler.i: src/compiler/compiler.cpp.i
+.PHONY : src/compiler/compiler.i
+
+# target to preprocess a source file
+src/compiler/compiler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/compiler/compiler.cpp.i
+.PHONY : src/compiler/compiler.cpp.i
+
+src/compiler/compiler.s: src/compiler/compiler.cpp.s
+.PHONY : src/compiler/compiler.s
+
+# target to generate assembly for a file
+src/compiler/compiler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/compiler/compiler.cpp.s
+.PHONY : src/compiler/compiler.cpp.s
+
+src/compiler/expression_statement.o: src/compiler/expression_statement.cpp.o
+.PHONY : src/compiler/expression_statement.o
+
+# target to build an object file
+src/compiler/expression_statement.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/compiler/expression_statement.cpp.o
+.PHONY : src/compiler/expression_statement.cpp.o
+
+src/compiler/expression_statement.i: src/compiler/expression_statement.cpp.i
+.PHONY : src/compiler/expression_statement.i
+
+# target to preprocess a source file
+src/compiler/expression_statement.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/compiler/expression_statement.cpp.i
+.PHONY : src/compiler/expression_statement.cpp.i
+
+src/compiler/expression_statement.s: src/compiler/expression_statement.cpp.s
+.PHONY : src/compiler/expression_statement.s
+
+# target to generate assembly for a file
+src/compiler/expression_statement.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/compiler/expression_statement.cpp.s
+.PHONY : src/compiler/expression_statement.cpp.s
+
+src/compiler/infix.o: src/compiler/infix.cpp.o
+.PHONY : src/compiler/infix.o
+
+# target to build an object file
+src/compiler/infix.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/compiler/infix.cpp.o
+.PHONY : src/compiler/infix.cpp.o
+
+src/compiler/infix.i: src/compiler/infix.cpp.i
+.PHONY : src/compiler/infix.i
+
+# target to preprocess a source file
+src/compiler/infix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/compiler/infix.cpp.i
+.PHONY : src/compiler/infix.cpp.i
+
+src/compiler/infix.s: src/compiler/infix.cpp.s
+.PHONY : src/compiler/infix.s
+
+# target to generate assembly for a file
+src/compiler/infix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/compiler/infix.cpp.s
+.PHONY : src/compiler/infix.cpp.s
+
+src/compiler/integer.o: src/compiler/integer.cpp.o
+.PHONY : src/compiler/integer.o
+
+# target to build an object file
+src/compiler/integer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/compiler/integer.cpp.o
+.PHONY : src/compiler/integer.cpp.o
+
+src/compiler/integer.i: src/compiler/integer.cpp.i
+.PHONY : src/compiler/integer.i
+
+# target to preprocess a source file
+src/compiler/integer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/compiler/integer.cpp.i
+.PHONY : src/compiler/integer.cpp.i
+
+src/compiler/integer.s: src/compiler/integer.cpp.s
+.PHONY : src/compiler/integer.s
+
+# target to generate assembly for a file
+src/compiler/integer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/compiler/integer.cpp.s
+.PHONY : src/compiler/integer.cpp.s
+
+src/compiler/progrem.o: src/compiler/progrem.cpp.o
+.PHONY : src/compiler/progrem.o
+
+# target to build an object file
+src/compiler/progrem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/compiler/progrem.cpp.o
+.PHONY : src/compiler/progrem.cpp.o
+
+src/compiler/progrem.i: src/compiler/progrem.cpp.i
+.PHONY : src/compiler/progrem.i
+
+# target to preprocess a source file
+src/compiler/progrem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/compiler/progrem.cpp.i
+.PHONY : src/compiler/progrem.cpp.i
+
+src/compiler/progrem.s: src/compiler/progrem.cpp.s
+.PHONY : src/compiler/progrem.s
+
+# target to generate assembly for a file
+src/compiler/progrem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/compiler/progrem.cpp.s
+.PHONY : src/compiler/progrem.cpp.s
+
 src/evaluator/evaluator.o: src/evaluator/evaluator.cpp.o
 .PHONY : src/evaluator/evaluator.o
 
@@ -579,6 +699,21 @@ help:
 	@echo "... src/code/instruction.o"
 	@echo "... src/code/instruction.i"
 	@echo "... src/code/instruction.s"
+	@echo "... src/compiler/compiler.o"
+	@echo "... src/compiler/compiler.i"
+	@echo "... src/compiler/compiler.s"
+	@echo "... src/compiler/expression_statement.o"
+	@echo "... src/compiler/expression_statement.i"
+	@echo "... src/compiler/expression_statement.s"
+	@echo "... src/compiler/infix.o"
+	@echo "... src/compiler/infix.i"
+	@echo "... src/compiler/infix.s"
+	@echo "... src/compiler/integer.o"
+	@echo "... src/compiler/integer.i"
+	@echo "... src/compiler/integer.s"
+	@echo "... src/compiler/progrem.o"
+	@echo "... src/compiler/progrem.i"
+	@echo "... src/compiler/progrem.s"
 	@echo "... src/evaluator/evaluator.o"
 	@echo "... src/evaluator/evaluator.i"
 	@echo "... src/evaluator/evaluator.s"

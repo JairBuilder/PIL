@@ -19,6 +19,36 @@
 },
 {
   "directory": "/cloudide/workspace/PIL/build",
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/compiler/compiler.cpp.o -c /cloudide/workspace/PIL/src/compiler/compiler.cpp",
+  "file": "/cloudide/workspace/PIL/src/compiler/compiler.cpp",
+  "output": "CMakeFiles/main.dir/src/compiler/compiler.cpp.o"
+},
+{
+  "directory": "/cloudide/workspace/PIL/build",
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/compiler/expression_statement.cpp.o -c /cloudide/workspace/PIL/src/compiler/expression_statement.cpp",
+  "file": "/cloudide/workspace/PIL/src/compiler/expression_statement.cpp",
+  "output": "CMakeFiles/main.dir/src/compiler/expression_statement.cpp.o"
+},
+{
+  "directory": "/cloudide/workspace/PIL/build",
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/compiler/infix.cpp.o -c /cloudide/workspace/PIL/src/compiler/infix.cpp",
+  "file": "/cloudide/workspace/PIL/src/compiler/infix.cpp",
+  "output": "CMakeFiles/main.dir/src/compiler/infix.cpp.o"
+},
+{
+  "directory": "/cloudide/workspace/PIL/build",
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/compiler/integer.cpp.o -c /cloudide/workspace/PIL/src/compiler/integer.cpp",
+  "file": "/cloudide/workspace/PIL/src/compiler/integer.cpp",
+  "output": "CMakeFiles/main.dir/src/compiler/integer.cpp.o"
+},
+{
+  "directory": "/cloudide/workspace/PIL/build",
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/compiler/progrem.cpp.o -c /cloudide/workspace/PIL/src/compiler/progrem.cpp",
+  "file": "/cloudide/workspace/PIL/src/compiler/progrem.cpp",
+  "output": "CMakeFiles/main.dir/src/compiler/progrem.cpp.o"
+},
+{
+  "directory": "/cloudide/workspace/PIL/build",
   "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/evaluator/evaluator.cpp.o -c /cloudide/workspace/PIL/src/evaluator/evaluator.cpp",
   "file": "/cloudide/workspace/PIL/src/evaluator/evaluator.cpp",
   "output": "CMakeFiles/main.dir/src/evaluator/evaluator.cpp.o"
