@@ -657,6 +657,54 @@ src/token/token.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/token/token.cpp.s
 .PHONY : src/token/token.cpp.s
 
+src/vm/binary_operation.o: src/vm/binary_operation.cpp.o
+.PHONY : src/vm/binary_operation.o
+
+# target to build an object file
+src/vm/binary_operation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/vm/binary_operation.cpp.o
+.PHONY : src/vm/binary_operation.cpp.o
+
+src/vm/binary_operation.i: src/vm/binary_operation.cpp.i
+.PHONY : src/vm/binary_operation.i
+
+# target to preprocess a source file
+src/vm/binary_operation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/vm/binary_operation.cpp.i
+.PHONY : src/vm/binary_operation.cpp.i
+
+src/vm/binary_operation.s: src/vm/binary_operation.cpp.s
+.PHONY : src/vm/binary_operation.s
+
+# target to generate assembly for a file
+src/vm/binary_operation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/vm/binary_operation.cpp.s
+.PHONY : src/vm/binary_operation.cpp.s
+
+src/vm/vm.o: src/vm/vm.cpp.o
+.PHONY : src/vm/vm.o
+
+# target to build an object file
+src/vm/vm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/vm/vm.cpp.o
+.PHONY : src/vm/vm.cpp.o
+
+src/vm/vm.i: src/vm/vm.cpp.i
+.PHONY : src/vm/vm.i
+
+# target to preprocess a source file
+src/vm/vm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/vm/vm.cpp.i
+.PHONY : src/vm/vm.cpp.i
+
+src/vm/vm.s: src/vm/vm.cpp.s
+.PHONY : src/vm/vm.s
+
+# target to generate assembly for a file
+src/vm/vm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/vm/vm.cpp.s
+.PHONY : src/vm/vm.cpp.s
+
 test/test_vm.o: test/test_vm.cpp.o
 .PHONY : test/test_vm.o
 
@@ -756,6 +804,12 @@ help:
 	@echo "... src/token/token.o"
 	@echo "... src/token/token.i"
 	@echo "... src/token/token.s"
+	@echo "... src/vm/binary_operation.o"
+	@echo "... src/vm/binary_operation.i"
+	@echo "... src/vm/binary_operation.s"
+	@echo "... src/vm/vm.o"
+	@echo "... src/vm/vm.i"
+	@echo "... src/vm/vm.s"
 	@echo "... test/test_vm.o"
 	@echo "... test/test_vm.i"
 	@echo "... test/test_vm.s"

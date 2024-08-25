@@ -133,6 +133,18 @@
 },
 {
   "directory": "/cloudide/workspace/PIL/build",
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/vm/binary_operation.cpp.o -c /cloudide/workspace/PIL/src/vm/binary_operation.cpp",
+  "file": "/cloudide/workspace/PIL/src/vm/binary_operation.cpp",
+  "output": "CMakeFiles/main.dir/src/vm/binary_operation.cpp.o"
+},
+{
+  "directory": "/cloudide/workspace/PIL/build",
+  "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/src/vm/vm.cpp.o -c /cloudide/workspace/PIL/src/vm/vm.cpp",
+  "file": "/cloudide/workspace/PIL/src/vm/vm.cpp",
+  "output": "CMakeFiles/main.dir/src/vm/vm.cpp.o"
+},
+{
+  "directory": "/cloudide/workspace/PIL/build",
   "command": "/home/cloudide/.nix-profile/bin/g++  -I/cloudide/workspace/PIL/. -g -std=gnu++11 -o CMakeFiles/main.dir/test/test_vm.cpp.o -c /cloudide/workspace/PIL/test/test_vm.cpp",
   "file": "/cloudide/workspace/PIL/test/test_vm.cpp",
   "output": "CMakeFiles/main.dir/test/test_vm.cpp.o"

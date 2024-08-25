@@ -30,6 +30,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/cloudide/workspace/PIL/src/parser/program.cpp" "CMakeFiles/main.dir/src/parser/program.cpp.o" "gcc" "CMakeFiles/main.dir/src/parser/program.cpp.o.d"
   "/cloudide/workspace/PIL/src/parser/statement.cpp" "CMakeFiles/main.dir/src/parser/statement.cpp.o" "gcc" "CMakeFiles/main.dir/src/parser/statement.cpp.o.d"
   "/cloudide/workspace/PIL/src/token/token.cpp" "CMakeFiles/main.dir/src/token/token.cpp.o" "gcc" "CMakeFiles/main.dir/src/token/token.cpp.o.d"
+  "/cloudide/workspace/PIL/src/vm/binary_operation.cpp" "CMakeFiles/main.dir/src/vm/binary_operation.cpp.o" "gcc" "CMakeFiles/main.dir/src/vm/binary_operation.cpp.o.d"
+  "/cloudide/workspace/PIL/src/vm/vm.cpp" "CMakeFiles/main.dir/src/vm/vm.cpp.o" "gcc" "CMakeFiles/main.dir/src/vm/vm.cpp.o.d"
   "/cloudide/workspace/PIL/test/test_vm.cpp" "CMakeFiles/main.dir/test/test_vm.cpp.o" "gcc" "CMakeFiles/main.dir/test/test_vm.cpp.o.d"
   )
 
